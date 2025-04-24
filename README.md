@@ -29,7 +29,7 @@ This project sets up a complete monitoring stack using Prometheus and Grafana wi
 docker-compose up -d
 ```
 
-![Image](/assets/Screenshot%202025-04-19%20013642.png)
+![Image](\assests\WhatsApp Image 2025-04-24 at 20.00.04_27afd577.jpg)
 
 ## Accessing the Services
 
