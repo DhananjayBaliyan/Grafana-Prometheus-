@@ -1,11 +1,8 @@
-<div align="center">
-    <img src="/assets/Grafana.png" alt="Grafana Logo" style="width: 200px; height: auto;">
-    <img src="/assets/Prometheus.png" alt="Prometheus Logo" style="width: 200px; height: auto;">
-</div>
+
 
 # Monitoring Stack with Prometheus and Grafana
 
-Created by Raghav Agarwal | SAP- 500108301
+Created by Divyam Garg | SAP- 500107661
 
 This project sets up a complete monitoring stack using Prometheus and Grafana with Node Exporter for system metrics collection.
 
