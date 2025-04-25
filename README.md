@@ -32,7 +32,7 @@ docker-compose up -d
 
 -   **Prometheus**: http://localhost:9090
 
-![Image](\assests\WhatsApp Image 2025-04-24 at 20.00.04_27afd577.jpg)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.00.04_27afd577.jpg)
 
 -   **Grafana**: http://localhost:3000
     -   Default credentials: admin/admin
