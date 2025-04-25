@@ -26,32 +26,32 @@ This project sets up a complete monitoring stack using Prometheus and Grafana wi
 docker-compose up -d
 ```
 
-![Image](\assests\WhatsApp Image 2025-04-24 at 20.00.04_27afd577.jpg)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.00.04_27afd577.jpg)
 
 ## Accessing the Services
 
 -   **Prometheus**: http://localhost:9090
 
-![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.00.04_27afd577.jpg)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.00.30_fbc816c1.jpg)
 
 -   **Grafana**: http://localhost:3000
     -   Default credentials: admin/admin
 
-![Image](/assets/Screenshot%202025-04-19%20013847.png)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.01.09_907dbc45.jpg)
 
 -   **Node Exporter Metrics**: http://localhost:9100/metrics
 
-![Image](/assets/Screenshot%202025-04-19%20012733.png)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.01.22_abdb12df.jpg)
 
 ## Verify Node Exporter and Grafana UP in Prometheus
 
-![Image](/assets/Screenshot%202025-04-19%20101900.png)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.01.41_79ffc4a1.jpg)
 
 ## Setting Up Grafana Dashboard
 
 1. Log in to Grafana (http://localhost:3000)
 
-![Image](/assets/Screenshot%202025-04-19%20101900.png)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.01.41_79ffc4a1.jpg)
 
 2. Add Prometheus as a data source:
     - Go to Configuration → Data Sources
@@ -60,7 +60,7 @@ docker-compose up -d
     - URL: http://prometheus:9090
     - Click "Save & Test"
 
-![Image](/assets/Screenshot%202025-04-19%20102259.png)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.31.38_10195105.jpg)
 
 3. Import the Node Exporter dashboard:
     - Click "+" → Import
@@ -68,13 +68,11 @@ docker-compose up -d
     - Select Prometheus data source
     - Click Import
 
-![Image](/assets/Screenshot%202025-04-19%20102428.png)
-
-![Image](/assets/Screenshot%202025-04-19%20102504.png)
-
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.36.30_8acca063.jpg)
+ 
 ## Dashboard
 
-![Image](/assets/Screenshot%202025-04-19%20102534.png)
+![Image](/assests/WhatsApp%20Image%202025-04-24%20at%2020.35.58_0a1d8cdc.jpg)
 
 ## Configuration Files
 
